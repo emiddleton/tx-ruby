@@ -1,0 +1,10 @@
+#!/bin/sh
+
+ruby18 setup.rb clean &&
+ruby18 setup.rb config &&
+ruby18 setup.rb setup &&
+ruby18 setup.rb test &&
+ruby19 setup.rb clean &&
+ruby19 setup.rb config &&
+ruby19 setup.rb setup &&
+ruby19 setup.rb test

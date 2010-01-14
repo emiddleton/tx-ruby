@@ -1,0 +1,4 @@
+#!/usr/local/bin/bash
+
+cd doc_src
+rdoc --title='tx-ruby' --main=README.txt -U -o ../doc *.txt *.rb

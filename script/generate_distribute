@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+mkdir -p distribute
+cd distribute
+
+rm -rf tx-ruby
+svn export file:///home/gimite/svnroot/tx-ruby
+cd tx-ruby
+cd ..
+tar cvz -f tx-ruby-$1.tar.gz tx-ruby
